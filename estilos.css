@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*HEADER Y NAVEGACION*/
+
+header {
+    margin: 15px;
+    width: 100%;
+}
+
+h1 {
+    text-shadow: rgb(170, 159, 159) 0.1em 0.1em;
+}
+
+#logo {
+    display: flex;
+    border-radius: 10px 10px 0 0 ;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    background-color: rgb(196, 187, 187);
+    padding: 10px;
+}
+
+header img {
+    height: 85px;
+    float: right;
+    margin: 2% 35px 0 0;
+}
+
+#title {
+    margin: 1% 0 0 10%;
+}
+
+.linea {
+    height: 15px;
+    background-color: black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#nav {
+    background-color:rgb(250, 185, 64);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 50px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+/*MAIN*/
+.container {
+    display: flex;
+    margin-right:15px;
+    margin-left: 15px;
+    width: 100%;
+}
+
+#div2 {
+    float: right;
+}
+
+main {
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 67%;
+}
+
+main div { /*para que los divs ocupen un cuarto*/
+    width: 50%;
+}
+
+main img {
+    width: 300px;
+    height: 300px;
+}
+
+#tarjeta {
+    width: 300px;
+    height: 198px;
+}
+
+#llaves {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 198px;
+}
+
+#beca {
+    height: 190px;
+}
+
+#casa {
+    height: 190px;
+}
+
+article {
+    text-align: center;
+}
+
+article h5 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#art1 h5, #art3 h5{
+    border-radius: inherit;
+}
+
+article p {
+    text-align: left;
+    padding: 10px;
+}
+
+article img {
+    height: 175px;
+}
+
+#art3 img {
+    width: 65%;
+}
+
+#art1 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px 0 0 0;
+    background: linear-gradient(to top, rgb(199, 197, 197), white);
+}
+
+#art2 {
+    margin-right: 15px;
+    border-radius: 0 0 0 15px;
+    background: linear-gradient(to top, rgb(199, 197, 197), white);
+}
+
+#art3 {
+    margin-bottom: 15px;
+    border-radius: 0 15px 0 0;
+    background: linear-gradient(to top, rgb(199, 197, 197), white);
+}
+
+#art4 {
+    border-radius: 0 0 15px 0;
+    background: linear-gradient(to top, rgb(199, 197, 197), white);
+}
+
+/*ASIDE*/
+aside {
+    margin-left: 15%;
+    margin-right: 15px;
+    float: left;
+    width: 33%;
+}
+
+#login {
+    margin-bottom: 15%;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(196, 187, 187);
+}
+
+#login h5 {
+    color: white;
+    background-color: rgb(23, 21, 21);    
+    text-align: center;
+    padding: 20px;
+    border-radius: inherit;
+}
+
+#login form {
+    padding: 15px;
+    margin-top: 10%;
+}
+
+#login form {
+    margin-left: 15px;
+}
+
+#btn {
+    padding: 5px;
+    transform: translate(200%);
+}
+
+#transac {
+    background-color: rgb(23, 21, 21);
+}
+
+#transac h5 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(250, 185, 64);
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#transac ul {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#transac ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#transac ul li{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+}
+
+#transac ul li a:hover{
+    color: rgb(200, 217, 73);
+}
+
+aside ul {
+    list-style: none;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(23, 21, 21);
+}
